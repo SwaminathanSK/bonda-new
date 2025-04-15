@@ -468,7 +468,7 @@ if __name__ == "__main__":
     rag = RAGQueryGenerator(
         neo4j_uri="bolt://localhost:7687",
         neo4j_username="neo4j",
-        neo4j_password="vishwa2488",
+        neo4j_password="<password>",
         pg_host="10.102.75.119",
         pg_database="timeseries",
         pg_user="postgres",
