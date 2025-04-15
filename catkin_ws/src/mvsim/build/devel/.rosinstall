@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/swaminathan/catkin_ws/src/mvsim/build/devel/setup.sh

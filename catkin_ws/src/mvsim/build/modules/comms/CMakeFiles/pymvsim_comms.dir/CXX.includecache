@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/swaminathan/catkin_ws/src/mvsim/modules/comms/python/generated-sources-pybind/std/stdexcept.cpp
+pybind11/pybind11.h
+-
+pybind11/stl.h
+-
+functional
+-
+iterator
+-
+memory
+-
+sstream
+-
+stdexcept
+-
+string
+-
+

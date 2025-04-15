@@ -1,0 +1,8 @@
+prefix=/home/swaminathan/catkin_ws/src/mvsim/build/devel
+
+Name: mvsim
+Description: Description of mvsim
+Version: 0.11.2
+Cflags: -I/home/swaminathan/catkin_ws/src/mvsim/build/devel/include
+Libs: -L${prefix}/lib 
+Requires: dynamic_reconfigure nav_msgs roscpp sensor_msgs visualization_msgs tf2 tf2_geometry_msgs

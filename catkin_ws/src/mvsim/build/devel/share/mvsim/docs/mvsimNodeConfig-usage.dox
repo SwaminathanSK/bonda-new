@@ -1,0 +1,7 @@
+\subsubsection usage Usage
+\verbatim
+<node name="mvsim_node" pkg="mvsim" type="mvsim_node">
+  <param name="show_gui" type="bool" value="True" />
+</node>
+\endverbatim
+
