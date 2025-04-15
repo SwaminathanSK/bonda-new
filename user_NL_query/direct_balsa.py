@@ -130,7 +130,7 @@ def main():
     rag = RAGQueryGenerator(
         neo4j_uri="bolt://localhost:7687",
         neo4j_username="neo4j",
-        neo4j_password="<password>",
+        neo4j_password="swamiallen@123",
         pg_host="10.102.75.119",
         pg_database="timeseries",
         pg_user="postgres",
