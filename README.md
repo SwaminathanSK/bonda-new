@@ -1,5 +1,4 @@
-# mvsim_ros_noetic
-mvsim + ros 1 with no bugs
+# For the simulation framework, install mvsim_ros_noetic
 
 The following steps assume that you have ros-noetic installed and set-up.
 
