@@ -7,7 +7,7 @@ The following steps assume that you have ros-noetic installed and set-up.
 sudo apt remove ros-noetic-mvsim # removes the current mvsim package
 source /opt/ros/noetic/setup.bash
 git clone https://github.com/YoWassup69/mvsim_ros_noetic.git
-cd mvsim_ros_noetic/catkin_ws
+cd bonda/catkin_ws
 sudo add-apt-repository ppa:joseluisblancoc/mrpt-stable # master (stable releases) branch
 sudo apt install libmrpt-dev mrpt-apps # C++ libs + apps
 sudo apt install python3-pymrpt # for the Python package
@@ -25,15 +25,4 @@ catkin config -DProtobuf_PROTOC_EXECUTABLE=/usr/bin/protoc -DPYTHON_EXECUTABLE=/
 catkin build -j4
 source devel/setup.bash
 roslaunch mvsim demo_warehouse.launch
-```
-
-
-Errors and fixes (to rearrange later)
-```
-conda create -n InterIIT python=3.9
-conda activate InterIIT
-catkin config -DProtobuf_PROTOC_EXECUTABLE=/usr/bin/protoc -DPYTHON_EXECUTABLE=$PATH_TO_CONDA_PYTHON_3
-catkin build -j4
-pip install catkin_pkg
-pip install rospkg
 ```
